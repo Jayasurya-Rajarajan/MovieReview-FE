@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
+  /* height: 90vh; */
+  overflow: hidden;
 }
 
 .App-logo {
@@ -11,6 +14,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body{
+  background: #252526;
 }
 
 .App-header {
@@ -35,4 +42,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.divv {
+  width: 500px;
+  height: 500px;
+  background: green;
+}
+.css-csmqbv-MuiPaper-root-MuiDialog-paper {
+  background-color: #252526!important;
+  color: white!important;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root{
+  background-color: #1e1e1e!important;
+  color: white!important;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root p span{
+  color: white!important;
+}
+.css-r40f8v-MuiTypography-root,
+.css-83ijpv-MuiTypography-root,
+.css-3ogxn6-MuiButtonBase-root-MuiIconButton-root,
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root,
+.css-1eomvmf-MuiButtonBase-root-MuiIconButton-root:hover, 
+.css-1eomvmf-MuiButtonBase-root-MuiIconButton-root{
+    color: white!important;
+} 
+.review__card__rating{
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__add__reviews{
+  
+}
+
+.add__movie__body{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.add__movie__body__parent{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.content__movies__section{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.add__review__body{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-between;
+  width: 100%;
+}
+.movie__reviews__card__wrapper{
+  margin: 5px;
 }

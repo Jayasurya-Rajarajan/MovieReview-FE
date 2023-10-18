@@ -1,0 +1,14 @@
+.layout__tooltar__section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: row;
+}
+.css-1ytpla9-MuiPaper-root-MuiAppBar-root{
+    background: black!important;
+}
+.header__name{
+    height: 50px;
+}

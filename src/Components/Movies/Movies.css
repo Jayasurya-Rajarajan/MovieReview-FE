@@ -1,0 +1,66 @@
+.movies__wrapper{
+    display: flex;
+    width: 25%;
+    height: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    flex-direction: row-reverse;
+}
+.movies__parent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.movie__poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie__poster__img{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.movie__poster{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+.movie__name{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+}
+.movie__rating{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+}
+.movie__title{
+    color: white;
+    padding: 5px;
+}
+.movie__rating__span{
+    padding: 5px;
+}
+.movie__poster__img:hover{
+    transition: .5s;
+    filter: blur(2px);
+}
+
+.poster__hover{
+    transition: .5s;
+    filter: blur(2px);
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    position: absolute!important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: dimgray;
+}
